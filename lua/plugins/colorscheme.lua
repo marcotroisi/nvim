@@ -1,4 +1,4 @@
 return {
-  { "folke/tokyonight.nvim" },
-  { "LazyVim/LazyVim", opts = { colorscheme = "tokyonight-day" } },
+  { "folke/tokyonight.nvim", opts = { style = "day" } },
+  -- { "LazyVim/LazyVim", opts = { colorscheme = "tokyonight-day" } },
 }
