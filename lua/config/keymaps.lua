@@ -9,12 +9,3 @@ vim.keymap.set(
     desc = "Search on current file",
   }
 )
-
-vim.keymap.set(
-  "n",
-  "<leader>r",
-  '<cmd>lua vim.ui.input({ prompt = "New name: ", default = vim.fn.expand("%") }, function(newName) if newName and newName ~= "" then vim.cmd("file " .. vim.fn.shellescape(newName)) end end)<CR>',
-  {
-    desc = "Rename file",
-  }
-)
