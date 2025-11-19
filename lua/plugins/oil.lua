@@ -12,8 +12,8 @@ return {
           vim.fn.setreg("+", vim.fn.getreg(vim.v.register))
         end,
       },
-      ["<CR>"] = "actions.preview",
-      ["l"] = "actions.select",
+      ["l"] = "actions.preview",
+      ["<CR>"] = "actions.select",
       ["H"] = "actions.toggle_hidden",
       ["h"] = { "actions.parent", mode = "n" },
     },
