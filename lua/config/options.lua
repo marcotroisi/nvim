@@ -4,3 +4,5 @@
 --
 vim.g.root_spec = { "cwd" }
 -- vim.opt.textwidth = 80
+
+vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
