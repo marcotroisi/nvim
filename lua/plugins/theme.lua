@@ -1,0 +1,13 @@
+return {
+  {
+    "folke/tokyonight.nvim",
+    priority = 1000,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "tokyonight-moon",
+      sidebars = { "qf", "vista_kind", "terminal", "packer" },
+    },
+  },
+}
